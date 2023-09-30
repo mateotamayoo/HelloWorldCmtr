@@ -15,18 +15,12 @@ El contenido que hemos visto en ha sido:
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKoAufYiAR36mWljxnxgUSxlgyQf7PRyPn3axUZPdDid7Cv7mVEuTCaA0PriHdRLPurGgI4sVFjmB_fMtKBgd6KWu_bDKdqMywm-AL-iOX3c69obt2sqeX5KVQVqkzcE8-xG-28yRDXx7X6-ZaNRIUlYmABYmi_8XfFYuYs5IMPU0gv9EbyutqDAfk/s1600/Android%20Studio%20-%20Header.png)
 
-**Tabla de Contenidos**
-
-[TOCM]
-
-[TOC]
-
-#Entorno Android Studio
+# Entorno Android Studio
 Para empezar nos hemos descargado la herramienta de Android Studio en el siguiente enlace `<link>` : <https://developer.android.com/studio>
 
 Nada más entrar en la herramienta creamos un nuevo proyecto, nos quedamos con la más básica y seguimos adelante, aprendimos la importancia del apartado **Minimun SDK**, que mientras más abajo esté, más gente lo podrá usar, no obstante, contaremos con tecnología más antigua.
 
-##Ficheros en un proyecto
+## Ficheros en un proyecto
 Ya dentro del proyecto tenemos el MainActivity.java, que es el fichero principal, además en el panel izquierdo tenemos varios directorios donde encontraremos otros ficheros
 
 ### BuildGradle
@@ -58,7 +52,7 @@ Fichero donde podremos ocultar directorios a la hora de subir nuestro al reposit
 
 Podemos encontrar más información sobre él en el siguiente enlace `<link>` : <https://git-scm.com/docs/gitignore>
 
-##Diseño de un proyecto
+## Diseño de un proyecto
 Tenemos principalmente el MainActivity.java, que contiene codigo en java y el activity_main.xml, que podemos trabajarlo en 3 modos diferentes.
 
 ### TextView
@@ -69,7 +63,7 @@ Es importante recalcar que **todo componente View tiene un id.
 
 Tenemos diferentes componentes disponibles que ya iremos conociendo
 
-##Dependencias
+## Dependencias
 Se encuentra dentro del **Build.Gradle** comentado anteriormente,  es importante porque aquí podemos conocer diferentes implementaciones del proyecto. 
 
 Además de añadir la ruta de nuestro fichero **android.jar**
@@ -78,7 +72,7 @@ para el siguiente paso
 ##JavaDoc
 El javadoc es un estandar para documentar clases en Java, podemos encontrar más información en `<link>` : <https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html>
 
-###Generar JavaDoc
+### Generar JavaDoc
 Nos iremos a **Tools** --> **Generate JavaDoc**
 
 Para ello es importante añadir la ruta del **android.jar** visto antes, será una linea como la siguiente:
@@ -95,7 +89,7 @@ Una vez creada podemos seleccionar que la aplicacion se ejecute en dicha máquin
 
 O también conectando directamente nuestro móvil al equipo.
 
-###Opciones requeridas
+### Opciones requeridas
 Para que todo funcione bien, tanto en la máquina virtual como en el dispositivo móvil, tenemos que realizar estos pasos: 
 
 1. activar depuración USB
@@ -116,17 +110,18 @@ Necesitamos una base para poder luego subir nuestro proyecto al repositorio que 
 
 Todo estos comandos con sus correspondientes argumentos, podemos obtener una guía rápida en el siguiente enlace ` <link> ` : <https://gist.github.com/dasdo/9ff71c5c0efa037441b6>
 
-##Repositorio en GitHub
+## Repositorio en GitHub
 Para poder acceder a las funcionalidades, debemos crearnos una cuenta, seguidamente nos podemos crear un repositorio y introducir nuestros proyectos con los comandos anteriores.
 
 Esta plataforma nos sirve para que varios usuarios puedan trabajar en el mismo proyecto al mismo tiempo
 
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2017/12/gitHub.png)
 
-##Fichero README.md
+## Fichero README.md
 Todo proyecto posee un fichero **README.md**, en el detallamos toda la información del mismo y de que se trata, en mi caso he usado la herramienta **editor.md** para crearlo.
 
 Esta herramienta nos permite ver los cambios en tiempo real.
 
 ![](https://cdn.ourcodeworld.com/public-media/gallery/gallery-587d0e0ce101a.png)
+
 
